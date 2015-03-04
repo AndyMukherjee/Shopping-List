@@ -1,19 +1,23 @@
-$document .ready(function(){
-
-$(".main").mouseenter(function(){
-
-	alert("hi");
-});
+$(document) .ready(function(){
 
 
-/*$("input") 
+
+
+$('.input') 
 	.keyup (function() {
 
 		var value = $(this).val();
-		$("li").text(value);
+		$('li').text(value);
+
+
+	});
+
+	keyup();
+	$(".button").click(function(){
+		$('.input').hide(value);
 
 	})
-	.keyup();*/
+
 
 });
 
