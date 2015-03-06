@@ -13,11 +13,15 @@ $('.input')
 	});
 
 	keyup();
-	$(".button").click(function(){
-		$('.input').hide(value);
+	$('.button') .click(function(){
+		$("input").val("");
 
-	})
+	});
 
+
+$('ul').on('click', 'li', function(event){
+
+	});
 
 });
 
