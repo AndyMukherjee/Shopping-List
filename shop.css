@@ -25,6 +25,12 @@ h1{
 
 .f , .b {
 	text-decoration: line-through;
+
+}
+
+.button2 {
+	display: inline;
+	
 }
 
 /* {outline: red 2px solid;}*/
